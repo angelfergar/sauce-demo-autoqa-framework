@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">report.html</title>
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">report.html</h1>
+    <p>Report generated on 09-Nov-2025 at 14:19:12 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">22 tests took 00:00:45.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
+            <span class="failed">1 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">21 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.12.8&#34;, &#34;Platform&#34;: &#34;Windows-11-10.0.26100-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.4.2&#34;, &#34;pluggy&#34;: &#34;1.6.0&#34;}, &#34;Plugins&#34;: {&#34;anyio&#34;: &#34;4.10.0&#34;, &#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;, &#34;order&#34;: &#34;1.3.0&#34;}, &#34;JAVA_HOME&#34;: &#34;C:\\Program Files\\Java\\jdk-11&#34;}, &#34;tests&#34;: {&#34;tests/test_suite.py::LoginTests::test_locked_login&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::LoginTests::test_locked_login&#34;, &#34;duration&#34;: &#34;00:00:06&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::LoginTests::test_locked_login&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:06&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log setup ------------------------------\nWARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:137 The geckodriver version (0.34.0) detected in PATH at C:\\Users\\anfer\\Documents\\drivers\\geckodriver.exe might not be compatible with the detected firefox version (144.0.2); currently, geckodriver 0.36.0 is recommended for firefox 144.*, so it is advised to delete the driver in PATH and retry\n\n------------------------------ Captured log call -------------------------------\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Swag Labs\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; Swag Labs\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Verify Page Title\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Verify Page Title.1762694312545.png\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent locked_out_user to element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent secret_sauce to element with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: login-button and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: login-button and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nINFO     LoginPage:selenium_driver.py:201 Element appeared with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:142 Element present with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Login Failed\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Login Failed.1762694312770.png\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:101 After finding element, size is: 51\nINFO     LoginPage:selenium_driver.py:106 The text in the element is: Epic sadface: Sorry, this user has been locked out.\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Epic sadface: Sorry, this user has been locked out.\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; Epic sadface: Sorry, this user has been locked out.\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Locked Out User Cannot Login\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Locked Out User Cannot Login.1762694312830.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Locked Out User Login\n\n&#34;}], &#34;tests/test_suite.py::LoginTests::test_wrong_login&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::LoginTests::test_wrong_login&#34;, &#34;duration&#34;: &#34;235 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::LoginTests::test_wrong_login&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;235 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent standard_user to element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent error to element with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: login-button and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: login-button and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nINFO     LoginPage:selenium_driver.py:201 Element appeared with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:142 Element present with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Login Failed\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Login Failed.1762694313023.png\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:101 After finding element, size is: 73\nINFO     LoginPage:selenium_driver.py:106 The text in the element is: Epic sadface: Username and password do not match any user in this service\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Epic sadface: Username and password do not match any user in this service\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; Epic sadface: Username and password do not match any user in this service\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Cannot Login with Wrong Credentials\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Cannot Login with Wrong Credentials.1762694313071.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Wrong Username or Password Login\n\n&#34;}], &#34;tests/test_suite.py::LoginTests::test_noPass_login&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::LoginTests::test_noPass_login&#34;, &#34;duration&#34;: &#34;214 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::LoginTests::test_noPass_login&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;214 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent standard_user to element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent  to element with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: login-button and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: login-button and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nINFO     LoginPage:selenium_driver.py:201 Element appeared with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:142 Element present with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Login Failed\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Login Failed.1762694313228.png\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:101 After finding element, size is: 34\nINFO     LoginPage:selenium_driver.py:106 The text in the element is: Epic sadface: Password is required\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Epic sadface: Password is required\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; Epic sadface: Password is required\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Cannot Login without Password\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Cannot Login without Password.1762694313283.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: No Password Login\n\n&#34;}], &#34;tests/test_suite.py::LoginTests::test_noUser_login&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::LoginTests::test_noUser_login&#34;, &#34;duration&#34;: &#34;210 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::LoginTests::test_noUser_login&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;210 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent  to element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent secret_sauce to element with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: login-button and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: login-button and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nINFO     LoginPage:selenium_driver.py:201 Element appeared with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:142 Element present with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Login Failed\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Login Failed.1762694313436.png\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:101 After finding element, size is: 34\nINFO     LoginPage:selenium_driver.py:106 The text in the element is: Epic sadface: Username is required\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Epic sadface: Username is required\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; Epic sadface: Username is required\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Cannot Login without User\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Cannot Login without User.1762694313491.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: No User Login\n\n&#34;}], &#34;tests/test_suite.py::LoginTests::test_valid_login&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::LoginTests::test_valid_login&#34;, &#34;duration&#34;: &#34;180 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::LoginTests::test_valid_login&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;180 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent standard_user to element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent secret_sauce to element with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: login-button and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: login-button and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: //a[@class=&amp;#x27;shopping_cart_link&amp;#x27;] and locatorType: xpath\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: //a[@class=&amp;#x27;shopping_cart_link&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: //a[@class=&amp;#x27;shopping_cart_link&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:142 Element present with locator: //a[@class=&amp;#x27;shopping_cart_link&amp;#x27;] and locatorType: xpath\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Login successful\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Login successful.1762694313659.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Test Valid Login\n\n&#34;}], &#34;tests/test_suite.py::LoginTests::test_logout_fail&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::LoginTests::test_logout_fail&#34;, &#34;duration&#34;: &#34;103 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::LoginTests::test_logout_fail&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;103 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: logout_sidebar_link and locatorType: id\nERROR    LoginPage:selenium_driver.py:81 Could not click on element with locator: logout_sidebar_link and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: //a[@class=&amp;#x27;shopping_cart_link&amp;#x27;] and locatorType: xpath\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: //a[@class=&amp;#x27;shopping_cart_link&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: //a[@class=&amp;#x27;shopping_cart_link&amp;#x27;] and locatorType: xpath\nDEBUG    LoginPage:selenium_driver.py:142 Element present with locator: //a[@class=&amp;#x27;shopping_cart_link&amp;#x27;] and locatorType: xpath\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Cannot Logout without Side Bar\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Cannot Logout without Side Bar.1762694313746.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Log Out Failed\n\n&#34;}], &#34;tests/test_suite.py::LoginTests::test_logout&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::LoginTests::test_logout&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::LoginTests::test_logout&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: react-burger-menu-btn and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: react-burger-menu-btn and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: logout_sidebar_link and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: logout_sidebar_link and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: login-button and locatorType: id\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: login-button and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: login-button and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:142 Element present with locator: login-button and locatorType: id\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Log Out Successful\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Log Out Successful.1762694313961.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Log Out Valid\n\n&#34;}], &#34;tests/test_suite.py::ShopTests::test_check_list&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::ShopTests::test_check_list&#34;, &#34;duration&#34;: &#34;00:00:06&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::ShopTests::test_check_list&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:06&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;tests.shop.shop_test.ShopTests testMethod=test_check_list&amp;gt;\n\n    @pytest.mark.order(8)\n    def test_check_list(self):\n        self.lp.login(username=&amp;quot;standard_user&amp;quot;, password=&amp;quot;secret_sauce&amp;quot;)\n        result1 = self.sp.verify_list_length()\n        self.sr.mark(result1, result_message=&amp;quot;List&amp;#x27;s length checked&amp;quot;)\n        result2 = self.sp.verify_list_titles()\n        self.sr.mark(result2, result_message=&amp;quot;List&amp;#x27;s names checked&amp;quot;)\n        result3 = self.sp.verify_list_descs()\n        self.sr.mark(result3, result_message=&amp;quot;List&amp;#x27;s descriptions checked&amp;quot;)\n        result4 = self.sp.verify_list_prices()\n&amp;gt;       self.sr.mark_final(test_name=&amp;quot;Test Inventory List&amp;quot;, result=result4, result_message=&amp;quot;List&amp;#x27;s prices checked&amp;quot;)\n\ntests\\shop\\shop_test.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = &amp;lt;utilities.test_status.StatusReporter object at 0x000001EF9A9EBDA0&amp;gt;, test_name = &amp;#x27;Test Inventory List&amp;#x27;, result = True, result_message = &amp;quot;List&amp;#x27;s prices checked&amp;quot;\n\n    def mark_final(self, test_name, result, result_message):\n        self.set_result(result, result_message)\n    \n        if &amp;quot;FAIL&amp;quot; in self.result_list:\n            self.log.error(f&amp;quot;### TEST FAILED: {test_name}&amp;quot;)\n            self.result_list.clear()\n&amp;gt;           assert True == False\nE           assert True == False\n\nutilities\\test_status.py:43: AssertionError\n\n------------------------------ Captured log setup ------------------------------\nWARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:137 The geckodriver version (0.34.0) detected in PATH at C:\\Users\\anfer\\Documents\\drivers\\geckodriver.exe might not be compatible with the detected firefox version (144.0.2); currently, geckodriver 0.36.0 is recommended for firefox 144.*, so it is advised to delete the driver in PATH and retry\n\n------------------------------ Captured log call -------------------------------\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent standard_user to element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent secret_sauce to element with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: login-button and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: login-button and locatorType: id\nDEBUG    ShopPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: product_sort_container and locatorType: class\nINFO     ShopPage:selenium_driver.py:201 Element appeared with locator: product_sort_container and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item and locatorType: class\nINFO     Util:util.py:83 The list&amp;#x27;s length is the same as the expected\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: List&amp;#x27;s length checked\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/List&amp;#x27;s length checked.1762694321951.png\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_name and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Backpack\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Bike Light\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Bolt T-Shirt\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Fleece Jacket\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Onesie\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Test.allTheThings() T-Shirt (Red)\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Test.allTheThings() T-Shirt (Red)&amp;#x27;] \nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Sauce Labs Backpack\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Sauce Labs Red T-Shirt&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Sauce Labs Bike Light\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Sauce Labs Red T-Shirt&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Sauce Labs Bolt T-Shirt\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Sauce Labs Red T-Shirt&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Sauce Labs Fleece Jacket\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Sauce Labs Red T-Shirt&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Sauce Labs Onesie\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Sauce Labs Red T-Shirt&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Test.allTheThings() T-Shirt (Red)\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Sauce Labs Red T-Shirt&amp;#x27;]\nERROR    Util:util.py:53 Text does not contain the expected content\nERROR    StatusReporter:test_status.py:23 ### VERIFICATION FAILED: List&amp;#x27;s names checked\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_desc and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: A red light isn&amp;#x27;t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: It&amp;#x27;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&amp;#x27;t unravel.\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.&amp;#x27;, &amp;quot;A red light isn&amp;#x27;t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.&amp;quot;, &amp;#x27;Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.&amp;#x27;, &amp;quot;It&amp;#x27;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.&amp;quot;, &amp;quot;Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&amp;#x27;t unravel.&amp;quot;, &amp;#x27;This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.&amp;#x27;] \nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.&amp;#x27;, &amp;quot;A red light isn&amp;#x27;t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.&amp;quot;, &amp;#x27;Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.&amp;#x27;, &amp;quot;It&amp;#x27;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.&amp;quot;, &amp;quot;Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&amp;#x27;t unravel.&amp;quot;, &amp;#x27;This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.&amp;#x27;]\nERROR    Util:util.py:53 Text does not contain the expected content\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; A red light isn&amp;#x27;t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.&amp;#x27;, &amp;quot;A red light isn&amp;#x27;t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.&amp;quot;, &amp;#x27;Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.&amp;#x27;, &amp;quot;It&amp;#x27;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.&amp;quot;, &amp;quot;Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&amp;#x27;t unravel.&amp;quot;, &amp;#x27;This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.&amp;#x27;, &amp;quot;A red light isn&amp;#x27;t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.&amp;quot;, &amp;#x27;Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.&amp;#x27;, &amp;quot;It&amp;#x27;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.&amp;quot;, &amp;quot;Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&amp;#x27;t unravel.&amp;quot;, &amp;#x27;This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; It&amp;#x27;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.&amp;#x27;, &amp;quot;A red light isn&amp;#x27;t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.&amp;quot;, &amp;#x27;Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.&amp;#x27;, &amp;quot;It&amp;#x27;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.&amp;quot;, &amp;quot;Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&amp;#x27;t unravel.&amp;quot;, &amp;#x27;This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&amp;#x27;t unravel.\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.&amp;#x27;, &amp;quot;A red light isn&amp;#x27;t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.&amp;quot;, &amp;#x27;Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.&amp;#x27;, &amp;quot;It&amp;#x27;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.&amp;quot;, &amp;quot;Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&amp;#x27;t unravel.&amp;quot;, &amp;#x27;This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.&amp;#x27;, &amp;quot;A red light isn&amp;#x27;t the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.&amp;quot;, &amp;#x27;Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.&amp;#x27;, &amp;quot;It&amp;#x27;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.&amp;quot;, &amp;quot;Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&amp;#x27;t unravel.&amp;quot;, &amp;#x27;This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.&amp;#x27;]\nERROR    StatusReporter:test_status.py:23 ### VERIFICATION FAILED: List&amp;#x27;s descriptions checked\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_price and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $29.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $9.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $15.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $49.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $7.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $15.99\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;$29.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;] \nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; $29.99\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;$29.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; $9.99\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;$29.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; $15.99\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;$29.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; $49.99\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;$29.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; $7.99\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;$29.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;]\nINFO     Util:util.py:47 Actual Text from Application Web UI -&amp;gt; $15.99\nINFO     Util:util.py:48 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;$29.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;]\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: List&amp;#x27;s prices checked\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/List&amp;#x27;s prices checked.1762694322140.png\nERROR    StatusReporter:test_status.py:41 ### TEST FAILED: Test Inventory List\n\n&#34;}], &#34;tests/test_suite.py::ShopTests::test_sort_filter&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::ShopTests::test_sort_filter&#34;, &#34;duration&#34;: &#34;746 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::ShopTests::test_sort_filter&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;746 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_name and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Backpack\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Bike Light\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Bolt T-Shirt\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Fleece Jacket\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Onesie\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Test.allTheThings() T-Shirt (Red)\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Test.allTheThings() T-Shirt (Red)&amp;#x27;] \nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_name and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Backpack\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Bike Light\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Bolt T-Shirt\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Fleece Jacket\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Onesie\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Test.allTheThings() T-Shirt (Red)\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Test.allTheThings() T-Shirt (Red)&amp;#x27;] \nINFO     Util:util.py:58 Actual Text from Application Web UI -&amp;gt; [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Test.allTheThings() T-Shirt (Red)&amp;#x27;]\nINFO     Util:util.py:59 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Sauce Labs Backpack&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Test.allTheThings() T-Shirt (Red)&amp;#x27;]\nINFO     Util:util.py:61 Text correctly contains the expected content\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Titles sorted from A to Z\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Titles sorted from A to Z.1762694322293.png\nDEBUG    ShopPage:selenium_driver.py:47 Element found with locator: product_sort_container and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:331 Element with locator: product_sort_container and locatorType: class was selected with the value za\nINFO     ShopPage:selenium_driver.py:333 za was selected\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_name and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Test.allTheThings() T-Shirt (Red)\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Onesie\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Fleece Jacket\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Bolt T-Shirt\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Bike Light\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Backpack\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;Test.allTheThings() T-Shirt (Red)&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Backpack&amp;#x27;] \nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_name and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Test.allTheThings() T-Shirt (Red)\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Onesie\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Fleece Jacket\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Bolt T-Shirt\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Bike Light\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: Sauce Labs Backpack\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;Test.allTheThings() T-Shirt (Red)&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Backpack&amp;#x27;] \nINFO     Util:util.py:58 Actual Text from Application Web UI -&amp;gt; [&amp;#x27;Test.allTheThings() T-Shirt (Red)&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Backpack&amp;#x27;]\nINFO     Util:util.py:59 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;Test.allTheThings() T-Shirt (Red)&amp;#x27;, &amp;#x27;Sauce Labs Onesie&amp;#x27;, &amp;#x27;Sauce Labs Fleece Jacket&amp;#x27;, &amp;#x27;Sauce Labs Bolt T-Shirt&amp;#x27;, &amp;#x27;Sauce Labs Bike Light&amp;#x27;, &amp;#x27;Sauce Labs Backpack&amp;#x27;]\nINFO     Util:util.py:61 Text correctly contains the expected content\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Titles sorted from Z to A\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Titles sorted from Z to A.1762694322509.png\nDEBUG    ShopPage:selenium_driver.py:47 Element found with locator: product_sort_container and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:331 Element with locator: product_sort_container and locatorType: class was selected with the value hilo\nINFO     ShopPage:selenium_driver.py:333 hilo was selected\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_price and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $49.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $29.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $15.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $15.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $9.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $7.99\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;$49.99&amp;#x27;, &amp;#x27;$29.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;] \nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_price and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $49.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $29.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $15.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $15.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $9.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $7.99\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;$49.99&amp;#x27;, &amp;#x27;$29.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;] \nINFO     Util:util.py:58 Actual Text from Application Web UI -&amp;gt; [&amp;#x27;$49.99&amp;#x27;, &amp;#x27;$29.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;]\nINFO     Util:util.py:59 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;$49.99&amp;#x27;, &amp;#x27;$29.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$7.99&amp;#x27;]\nINFO     Util:util.py:61 Text correctly contains the expected content\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Prices sorted from High to Low\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Prices sorted from High to Low.1762694322716.png\nDEBUG    ShopPage:selenium_driver.py:47 Element found with locator: product_sort_container and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:331 Element with locator: product_sort_container and locatorType: class was selected with the value lohi\nINFO     ShopPage:selenium_driver.py:333 lohi was selected\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_price and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $7.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $9.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $15.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $15.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $29.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $49.99\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;$7.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$29.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;] \nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item_price and locatorType: class\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $7.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $9.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $15.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $15.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $29.99\nINFO     ShopPage:selenium_driver.py:126 The text in the element is: $49.99\nINFO     ShopPage:selenium_driver.py:130 Got 6 elements with texts: [&amp;#x27;$7.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$29.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;] \nINFO     Util:util.py:58 Actual Text from Application Web UI -&amp;gt; [&amp;#x27;$7.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$29.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;]\nINFO     Util:util.py:59 Expected Text from Application Web UI -&amp;gt; [&amp;#x27;$7.99&amp;#x27;, &amp;#x27;$9.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$15.99&amp;#x27;, &amp;#x27;$29.99&amp;#x27;, &amp;#x27;$49.99&amp;#x27;]\nINFO     Util:util.py:61 Text correctly contains the expected content\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Prices sorted from Low to High\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Prices sorted from Low to High.1762694322914.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Item Sorting\n\n&#34;}], &#34;tests/test_suite.py::ShopTests::test_add_button&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::ShopTests::test_add_button&#34;, &#34;duration&#34;: &#34;96 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::ShopTests::test_add_button&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;96 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Every Item has a Add to Cart Button\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Every Item has a Add to Cart Button.1762694323001.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Add Button Present\n\n&#34;}], &#34;tests/test_suite.py::ShopTests::test_add_item&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::ShopTests::test_add_item&#34;, &#34;duration&#34;: &#34;526 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::ShopTests::test_add_item&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;526 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: shopping_cart_badge and locatorType: class\nINFO     ShopPage:selenium_driver.py:201 Element appeared with locator: shopping_cart_badge and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:47 Element found with locator: shopping_cart_badge and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:101 After finding element, size is: 1\nINFO     ShopPage:selenium_driver.py:106 The text in the element is: 6\nINFO     Util:util.py:58 Actual Text from Application Web UI -&amp;gt; 6\nINFO     Util:util.py:59 Expected Text from Application Web UI -&amp;gt; 6\nINFO     Util:util.py:61 Text correctly contains the expected content\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: All items have been added to cart\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/All items have been added to cart.1762694323437.png\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:68 Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Every Add Button is now a Removed Button\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Every Add Button is now a Removed Button.1762694323525.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Add Items to Cart\n\n&#34;}], &#34;tests/test_suite.py::ShopTests::test_remove_item&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::ShopTests::test_remove_item&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::ShopTests::test_remove_item&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: All items have been removed\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/All items have been removed.1762694323964.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Remove Items from Cart\n\n&#34;}], &#34;tests/test_suite.py::CartTests::test_one_item&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::CartTests::test_one_item&#34;, &#34;duration&#34;: &#34;00:00:05&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::CartTests::test_one_item&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:05&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log setup ------------------------------\nWARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:137 The geckodriver version (0.34.0) detected in PATH at C:\\Users\\anfer\\Documents\\drivers\\geckodriver.exe might not be compatible with the detected firefox version (144.0.2); currently, geckodriver 0.36.0 is recommended for firefox 144.*, so it is advised to delete the driver in PATH and retry\n\n------------------------------ Captured log call -------------------------------\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent standard_user to element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent secret_sauce to element with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: login-button and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: login-button and locatorType: id\nDEBUG    ShopPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: product_sort_container and locatorType: class\nINFO     ShopPage:selenium_driver.py:201 Element appeared with locator: product_sort_container and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:47 Element found with locator: (//div[@class=&amp;#x27;inventory_item_description&amp;#x27;])[1]//div[@class=&amp;#x27;inventory_item_name &amp;#x27;] and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:101 After finding element, size is: 19\nINFO     ShopPage:selenium_driver.py:106 The text in the element is: Sauce Labs Backpack\nDEBUG    ShopPage:selenium_driver.py:47 Element found with locator: shopping_cart_link and locatorType: class\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: shopping_cart_link and locatorType: class\nDEBUG    CartPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: checkout and locatorType: ID\nINFO     CartPage:selenium_driver.py:201 Element appeared with locator: checkout and locatorType: ID\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: checkout and locatorType: id\nDEBUG    CartPage:selenium_driver.py:142 Element present with locator: checkout and locatorType: ID\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: //div[@class=&amp;#x27;inventory_item_name&amp;#x27;][1] and locatorType: xpath\nDEBUG    CartPage:selenium_driver.py:101 After finding element, size is: 19\nINFO     CartPage:selenium_driver.py:106 The text in the element is: Sauce Labs Backpack\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Access to Cart Page Correct\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Access to Cart Page Correct.1762694332004.png\nINFO     Util:util.py:58 Actual Text from Application Web UI -&amp;gt; Sauce Labs Backpack\nINFO     Util:util.py:59 Expected Text from Application Web UI -&amp;gt; Sauce Labs Backpack\nINFO     Util:util.py:61 Text correctly contains the expected content\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Item in the cart matches selected in Shop\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Item in the cart matches selected in Shop.1762694332055.png\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: cart_item and locatorType: class\nDEBUG    CartPage:selenium_driver.py:68 Child element found with locator: btn.btn_secondary.btn_small.cart_button and locatorType: class\nDEBUG    CartPage:selenium_driver.py:142 Element present with locator: None and locatorType: xpath\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Item has Remove Button\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Item has Remove Button.1762694332107.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Add Item to Cart\n\n&#34;}], &#34;tests/test_suite.py::CartTests::test_remove_item&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::CartTests::test_remove_item&#34;, &#34;duration&#34;: &#34;99 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::CartTests::test_remove_item&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;99 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: btn.btn_secondary.btn_small.cart_button and locatorType: class\nINFO     CartPage:selenium_driver.py:79 Clicked on element with locator: btn.btn_secondary.btn_small.cart_button and locatorType: class\nDEBUG    CartPage:selenium_driver.py:58 Element list found with locator: cart_item and locatorType: class\nINFO     Util:util.py:83 The list&amp;#x27;s length is the same as the expected\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Item removed\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Item removed.1762694332217.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Remove Item from Cart\n\n&#34;}], &#34;tests/test_suite.py::CartTests::test_continue_shopping&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::CartTests::test_continue_shopping&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::CartTests::test_continue_shopping&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: continue-shopping and locatorType: id\nINFO     CartPage:selenium_driver.py:79 Clicked on element with locator: continue-shopping and locatorType: id\nDEBUG    CartPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: product_sort_container and locatorType: class\nINFO     CartPage:selenium_driver.py:201 Element appeared with locator: product_sort_container and locatorType: class\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: product_sort_container and locatorType: class\nDEBUG    CartPage:selenium_driver.py:142 Element present with locator: product_sort_container and locatorType: class\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Back to Shop with Continue Shopping\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Back to Shop with Continue Shopping.1762694332330.png\nDEBUG    ShopPage:selenium_driver.py:47 Element found with locator: shopping_cart_link and locatorType: class\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: shopping_cart_link and locatorType: class\nDEBUG    CartPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: checkout and locatorType: id\nINFO     CartPage:selenium_driver.py:201 Element appeared with locator: checkout and locatorType: id\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: react-burger-menu-btn and locatorType: id\nINFO     CartPage:selenium_driver.py:79 Clicked on element with locator: react-burger-menu-btn and locatorType: id\nDEBUG    CartPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: inventory_sidebar_link and locatorType: id\nINFO     CartPage:selenium_driver.py:201 Element appeared with locator: inventory_sidebar_link and locatorType: id\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: inventory_sidebar_link and locatorType: id\nINFO     CartPage:selenium_driver.py:79 Clicked on element with locator: inventory_sidebar_link and locatorType: id\nDEBUG    CartPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: product_sort_container and locatorType: class\nINFO     CartPage:selenium_driver.py:201 Element appeared with locator: product_sort_container and locatorType: class\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: product_sort_container and locatorType: class\nDEBUG    CartPage:selenium_driver.py:142 Element present with locator: product_sort_container and locatorType: class\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Back to Shop with All Items\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Back to Shop with All Items.1762694332619.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Back to Shop\n\n&#34;}], &#34;tests/test_suite.py::CheckOutTests::test_checkout&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::CheckOutTests::test_checkout&#34;, &#34;duration&#34;: &#34;00:00:05&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::CheckOutTests::test_checkout&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:05&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log setup ------------------------------\nWARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:137 The geckodriver version (0.34.0) detected in PATH at C:\\Users\\anfer\\Documents\\drivers\\geckodriver.exe might not be compatible with the detected firefox version (144.0.2); currently, geckodriver 0.36.0 is recommended for firefox 144.*, so it is advised to delete the driver in PATH and retry\n\n------------------------------ Captured log call -------------------------------\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent standard_user to element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent secret_sauce to element with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: login-button and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: login-button and locatorType: id\nDEBUG    ShopPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: product_sort_container and locatorType: class\nINFO     ShopPage:selenium_driver.py:201 Element appeared with locator: product_sort_container and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:47 Element found with locator: shopping_cart_link and locatorType: class\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: shopping_cart_link and locatorType: class\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: checkout and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: checkout and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: checkout and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: checkout and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:142 Element present with locator: first-name and locatorType: id\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Checkout ready\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Checkout ready.1762694340681.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Checkout Successful\n\n&#34;}], &#34;tests/test_suite.py::CheckOutTests::test_checkout_error&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::CheckOutTests::test_checkout_error&#34;, &#34;duration&#34;: &#34;551 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::CheckOutTests::test_checkout_error&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;551 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: last-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: postal-code and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent  to element with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: last-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent  to element with locator: last-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: postal-code and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent  to element with locator: postal-code and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: continue and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: continue and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    CheckoutPage:selenium_driver.py:101 After finding element, size is: 29\nINFO     CheckoutPage:selenium_driver.py:106 The text in the element is: Error: First Name is required\nINFO     Util:util.py:58 Actual Text from Application Web UI -&amp;gt; Error: First Name is required\nINFO     Util:util.py:59 Expected Text from Application Web UI -&amp;gt; Error: First Name is required\nINFO     Util:util.py:61 Text correctly contains the expected content\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: First Name Error Displayed Correctly\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/First Name Error Displayed Correctly.1762694340854.png\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: last-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: postal-code and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent Test to element with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: last-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent  to element with locator: last-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: postal-code and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent  to element with locator: postal-code and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: continue and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: continue and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    CheckoutPage:selenium_driver.py:101 After finding element, size is: 28\nINFO     CheckoutPage:selenium_driver.py:106 The text in the element is: Error: Last Name is required\nINFO     Util:util.py:58 Actual Text from Application Web UI -&amp;gt; Error: Last Name is required\nINFO     Util:util.py:59 Expected Text from Application Web UI -&amp;gt; Error: Last Name is required\nINFO     Util:util.py:61 Text correctly contains the expected content\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Last Name Error Displayed Correctly\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Last Name Error Displayed Correctly.1762694341053.png\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: last-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: postal-code and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent Test to element with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: last-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent Auto to element with locator: last-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: postal-code and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent  to element with locator: postal-code and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: continue and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: continue and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: //h3[@data-test=&amp;#x27;error&amp;#x27;] and locatorType: xpath\nDEBUG    CheckoutPage:selenium_driver.py:101 After finding element, size is: 30\nINFO     CheckoutPage:selenium_driver.py:106 The text in the element is: Error: Postal Code is required\nINFO     Util:util.py:58 Actual Text from Application Web UI -&amp;gt; Error: Postal Code is required\nINFO     Util:util.py:59 Expected Text from Application Web UI -&amp;gt; Error: Postal Code is required\nINFO     Util:util.py:61 Text correctly contains the expected content\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Postal Code Error Displayed Correctly\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Postal Code Error Displayed Correctly.1762694341238.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Wrong information\n\n&#34;}], &#34;tests/test_suite.py::CheckOutTests::test_back_to_cart&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::CheckOutTests::test_back_to_cart&#34;, &#34;duration&#34;: &#34;304 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::CheckOutTests::test_back_to_cart&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;304 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: cancel and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: cancel and locatorType: id\nDEBUG    CartPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: checkout and locatorType: ID\nINFO     CartPage:selenium_driver.py:201 Element appeared with locator: checkout and locatorType: ID\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: checkout and locatorType: id\nDEBUG    CartPage:selenium_driver.py:142 Element present with locator: checkout and locatorType: ID\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Cancel returns to Cart\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Cancel returns to Cart.1762694341357.png\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: checkout and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: checkout and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: checkout and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: checkout and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: shopping_cart_link and locatorType: class\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: shopping_cart_link and locatorType: class\nDEBUG    CartPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: checkout and locatorType: ID\nINFO     CartPage:selenium_driver.py:201 Element appeared with locator: checkout and locatorType: ID\nDEBUG    CartPage:selenium_driver.py:47 Element found with locator: checkout and locatorType: id\nDEBUG    CartPage:selenium_driver.py:142 Element present with locator: checkout and locatorType: ID\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Shopping Cart returns to Cart\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Shopping Cart returns to Cart.1762694341537.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Back to Cart\n\n&#34;}], &#34;tests/test_suite.py::CheckOutTests::test_complete_checkout&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::CheckOutTests::test_complete_checkout&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::CheckOutTests::test_complete_checkout&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: checkout and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: checkout and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: checkout and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: checkout and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent Test to element with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: last-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent Auto to element with locator: last-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: postal-code and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent 49668 to element with locator: postal-code and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: continue and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: continue and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: summary_info and locatorType: class\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: summary_info and locatorType: class\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: summary_info and locatorType: class\nDEBUG    CheckoutPage:selenium_driver.py:142 Element present with locator: summary_info and locatorType: class\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Checkout Info Added\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Checkout Info Added.1762694341790.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Checkout Overivew\n\n&#34;}], &#34;tests/test_suite.py::OverviewTests::test_overview&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::OverviewTests::test_overview&#34;, &#34;duration&#34;: &#34;00:00:06&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::OverviewTests::test_overview&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:06&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log setup ------------------------------\nWARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:137 The geckodriver version (0.34.0) detected in PATH at C:\\Users\\anfer\\Documents\\drivers\\geckodriver.exe might not be compatible with the detected firefox version (144.0.2); currently, geckodriver 0.36.0 is recommended for firefox 144.*, so it is advised to delete the driver in PATH and retry\n\n------------------------------ Captured log call -------------------------------\nDEBUG    LoginPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:207 Can click on element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: user-name and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent standard_user to element with locator: user-name and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: password and locatorType: id\nINFO     LoginPage:selenium_driver.py:89 Sent secret_sauce to element with locator: password and locatorType: id\nDEBUG    LoginPage:selenium_driver.py:47 Element found with locator: login-button and locatorType: id\nINFO     LoginPage:selenium_driver.py:79 Clicked on element with locator: login-button and locatorType: id\nDEBUG    ShopPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: product_sort_container and locatorType: class\nINFO     ShopPage:selenium_driver.py:201 Element appeared with locator: product_sort_container and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: None and locatorType: xpath\nDEBUG    ShopPage:selenium_driver.py:47 Element found with locator: shopping_cart_link and locatorType: class\nINFO     ShopPage:selenium_driver.py:79 Clicked on element with locator: shopping_cart_link and locatorType: class\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: checkout and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: checkout and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: checkout and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: checkout and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:201 Element appeared with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: first-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent Test to element with locator: first-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: last-name and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent Auto to element with locator: last-name and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: postal-code and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:89 Sent 49668 to element with locator: postal-code and locatorType: id\nDEBUG    CheckoutPage:selenium_driver.py:47 Element found with locator: continue and locatorType: id\nINFO     CheckoutPage:selenium_driver.py:79 Clicked on element with locator: continue and locatorType: id\nDEBUG    OverviewPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: inventory_item_name and locatorType: class\nINFO     OverviewPage:selenium_driver.py:201 Element appeared with locator: inventory_item_name and locatorType: class\nDEBUG    OverviewPage:selenium_driver.py:47 Element found with locator: inventory_item_name and locatorType: class\nDEBUG    OverviewPage:selenium_driver.py:142 Element present with locator: inventory_item_name and locatorType: class\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Got to overview\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Got to overview.1762694349968.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Getting to overview\n\n&#34;}], &#34;tests/test_suite.py::OverviewTests::test_thanks&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::OverviewTests::test_thanks&#34;, &#34;duration&#34;: &#34;122 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::OverviewTests::test_thanks&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;122 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    OverviewPage:selenium_driver.py:47 Element found with locator: finish and locatorType: id\nINFO     OverviewPage:selenium_driver.py:79 Clicked on element with locator: finish and locatorType: id\nDEBUG    OverviewPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: complete-header and locatorType: class\nINFO     OverviewPage:selenium_driver.py:201 Element appeared with locator: complete-header and locatorType: class\nDEBUG    OverviewPage:selenium_driver.py:47 Element found with locator: complete-header and locatorType: class\nDEBUG    OverviewPage:selenium_driver.py:101 After finding element, size is: 25\nINFO     OverviewPage:selenium_driver.py:106 The text in the element is: Thank you for your order!\nINFO     Util:util.py:58 Actual Text from Application Web UI -&amp;gt; Thank you for your order!\nINFO     Util:util.py:59 Expected Text from Application Web UI -&amp;gt; Thank you for your order!\nINFO     Util:util.py:61 Text correctly contains the expected content\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Valid Thanks Message\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Valid Thanks Message.1762694350088.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Order Completed\n\n&#34;}], &#34;tests/test_suite.py::OverviewTests::test_back_home&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_suite.py::OverviewTests::test_back_home&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_suite.py::OverviewTests::test_back_home&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    OverviewPage:selenium_driver.py:47 Element found with locator: back-to-products and locatorType: id\nINFO     OverviewPage:selenium_driver.py:79 Clicked on element with locator: back-to-products and locatorType: id\nDEBUG    ShopPage:selenium_driver.py:192 Waiting 10 seconds for element with locator: product_sort_container and locatorType: class\nINFO     ShopPage:selenium_driver.py:201 Element appeared with locator: product_sort_container and locatorType: class\nDEBUG    ShopPage:selenium_driver.py:58 Element list found with locator: inventory_item and locatorType: class\nINFO     Util:util.py:83 The list&amp;#x27;s length is the same as the expected\nINFO     StatusReporter:test_status.py:19 ### VERIFICATION SUCCESSFUL: Gone Back to Shop\nINFO     StatusReporter:selenium_driver.py:313 Screenshot saved to directory: C:\\Users\\anfer\\Documents\\Selenium\\saucedemo_selenium_automation\\base\\../screenshots/Gone Back to Shop.1762694350207.png\nINFO     StatusReporter:test_status.py:45 ### TEST SUCCESSFUL: Back to Home\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>

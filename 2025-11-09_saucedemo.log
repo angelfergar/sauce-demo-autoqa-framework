@@ -1,0 +1,636 @@
+09112025 02:18:32 PM - Util - INFO - Actual Text from Application Web UI -> Swag Labs
+09112025 02:18:32 PM - Util - INFO - Expected Text from Application Web UI -> Swag Labs
+09112025 02:18:32 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Verify Page Title
+09112025 02:18:32 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Verify Page Title.1762694312545.png
+09112025 02:18:32 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: user-name and locatorType: id
+09112025 02:18:32 PM - LoginPage - INFO - Can click on element with locator: user-name and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:32 PM - LoginPage - INFO - Sent locked_out_user to element with locator: user-name and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:32 PM - LoginPage - INFO - Sent secret_sauce to element with locator: password and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: login-button and locatorType: id
+09112025 02:18:32 PM - LoginPage - INFO - Clicked on element with locator: login-button and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:32 PM - LoginPage - INFO - Element appeared with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:32 PM - LoginPage - DEBUG - Element present with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:32 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Login Failed
+09112025 02:18:32 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Login Failed.1762694312770.png
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:32 PM - LoginPage - DEBUG - After finding element, size is: 51
+09112025 02:18:32 PM - LoginPage - INFO - The text in the element is: Epic sadface: Sorry, this user has been locked out.
+09112025 02:18:32 PM - Util - INFO - Actual Text from Application Web UI -> Epic sadface: Sorry, this user has been locked out.
+09112025 02:18:32 PM - Util - INFO - Expected Text from Application Web UI -> Epic sadface: Sorry, this user has been locked out.
+09112025 02:18:32 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Locked Out User Cannot Login
+09112025 02:18:32 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Locked Out User Cannot Login.1762694312830.png
+09112025 02:18:32 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Locked Out User Login
+09112025 02:18:32 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: user-name and locatorType: id
+09112025 02:18:32 PM - LoginPage - INFO - Can click on element with locator: user-name and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:32 PM - LoginPage - INFO - Sent standard_user to element with locator: user-name and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:32 PM - LoginPage - INFO - Sent error to element with locator: password and locatorType: id
+09112025 02:18:32 PM - LoginPage - DEBUG - Element found with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Clicked on element with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - INFO - Element appeared with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - Element present with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Login Failed
+09112025 02:18:33 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Login Failed.1762694313023.png
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - After finding element, size is: 73
+09112025 02:18:33 PM - LoginPage - INFO - The text in the element is: Epic sadface: Username and password do not match any user in this service
+09112025 02:18:33 PM - Util - INFO - Actual Text from Application Web UI -> Epic sadface: Username and password do not match any user in this service
+09112025 02:18:33 PM - Util - INFO - Expected Text from Application Web UI -> Epic sadface: Username and password do not match any user in this service
+09112025 02:18:33 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Cannot Login with Wrong Credentials
+09112025 02:18:33 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Cannot Login with Wrong Credentials.1762694313071.png
+09112025 02:18:33 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Wrong Username or Password Login
+09112025 02:18:33 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Can click on element with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Sent standard_user to element with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Sent  to element with locator: password and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Clicked on element with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - INFO - Element appeared with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - Element present with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Login Failed
+09112025 02:18:33 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Login Failed.1762694313228.png
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - After finding element, size is: 34
+09112025 02:18:33 PM - LoginPage - INFO - The text in the element is: Epic sadface: Password is required
+09112025 02:18:33 PM - Util - INFO - Actual Text from Application Web UI -> Epic sadface: Password is required
+09112025 02:18:33 PM - Util - INFO - Expected Text from Application Web UI -> Epic sadface: Password is required
+09112025 02:18:33 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Cannot Login without Password
+09112025 02:18:33 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Cannot Login without Password.1762694313283.png
+09112025 02:18:33 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: No Password Login
+09112025 02:18:33 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Can click on element with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Sent  to element with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Sent secret_sauce to element with locator: password and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Clicked on element with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - INFO - Element appeared with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - Element present with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Login Failed
+09112025 02:18:33 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Login Failed.1762694313436.png
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - After finding element, size is: 34
+09112025 02:18:33 PM - LoginPage - INFO - The text in the element is: Epic sadface: Username is required
+09112025 02:18:33 PM - Util - INFO - Actual Text from Application Web UI -> Epic sadface: Username is required
+09112025 02:18:33 PM - Util - INFO - Expected Text from Application Web UI -> Epic sadface: Username is required
+09112025 02:18:33 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Cannot Login without User
+09112025 02:18:33 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Cannot Login without User.1762694313491.png
+09112025 02:18:33 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: No User Login
+09112025 02:18:33 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Can click on element with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Sent standard_user to element with locator: user-name and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Sent secret_sauce to element with locator: password and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Clicked on element with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: //a[@class='shopping_cart_link'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - INFO - Can click on element with locator: //a[@class='shopping_cart_link'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: //a[@class='shopping_cart_link'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - Element present with locator: //a[@class='shopping_cart_link'] and locatorType: xpath
+09112025 02:18:33 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Login successful
+09112025 02:18:33 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Login successful.1762694313659.png
+09112025 02:18:33 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Test Valid Login
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: logout_sidebar_link and locatorType: id
+09112025 02:18:33 PM - LoginPage - ERROR - Could not click on element with locator: logout_sidebar_link and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: //a[@class='shopping_cart_link'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - INFO - Can click on element with locator: //a[@class='shopping_cart_link'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: //a[@class='shopping_cart_link'] and locatorType: xpath
+09112025 02:18:33 PM - LoginPage - DEBUG - Element present with locator: //a[@class='shopping_cart_link'] and locatorType: xpath
+09112025 02:18:33 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Cannot Logout without Side Bar
+09112025 02:18:33 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Cannot Logout without Side Bar.1762694313746.png
+09112025 02:18:33 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Log Out Failed
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: react-burger-menu-btn and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Clicked on element with locator: react-burger-menu-btn and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: logout_sidebar_link and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Clicked on element with locator: logout_sidebar_link and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - INFO - Can click on element with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element found with locator: login-button and locatorType: id
+09112025 02:18:33 PM - LoginPage - DEBUG - Element present with locator: login-button and locatorType: id
+09112025 02:18:33 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Log Out Successful
+09112025 02:18:34 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Log Out Successful.1762694313961.png
+09112025 02:18:34 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Log Out Valid
+09112025 02:18:41 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: user-name and locatorType: id
+09112025 02:18:41 PM - LoginPage - INFO - Can click on element with locator: user-name and locatorType: id
+09112025 02:18:41 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:41 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:41 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:41 PM - LoginPage - INFO - Sent standard_user to element with locator: user-name and locatorType: id
+09112025 02:18:41 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:41 PM - LoginPage - INFO - Sent secret_sauce to element with locator: password and locatorType: id
+09112025 02:18:41 PM - LoginPage - DEBUG - Element found with locator: login-button and locatorType: id
+09112025 02:18:41 PM - LoginPage - INFO - Clicked on element with locator: login-button and locatorType: id
+09112025 02:18:41 PM - ShopPage - DEBUG - Waiting 10 seconds for element with locator: product_sort_container and locatorType: class
+09112025 02:18:41 PM - ShopPage - INFO - Element appeared with locator: product_sort_container and locatorType: class
+09112025 02:18:41 PM - ShopPage - DEBUG - Element list found with locator: inventory_item and locatorType: class
+09112025 02:18:41 PM - Util - INFO - The list's length is the same as the expected
+09112025 02:18:41 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: List's length checked
+09112025 02:18:42 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/List's length checked.1762694321951.png
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_name and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Backpack
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Bike Light
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Bolt T-Shirt
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Fleece Jacket
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Onesie
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Test.allTheThings() T-Shirt (Red)
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)'] 
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> Sauce Labs Backpack
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Sauce Labs Red T-Shirt']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> Sauce Labs Bike Light
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Sauce Labs Red T-Shirt']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> Sauce Labs Bolt T-Shirt
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Sauce Labs Red T-Shirt']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> Sauce Labs Fleece Jacket
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Sauce Labs Red T-Shirt']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> Sauce Labs Onesie
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Sauce Labs Red T-Shirt']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> Test.allTheThings() T-Shirt (Red)
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Sauce Labs Red T-Shirt']
+09112025 02:18:42 PM - Util - ERROR - Text does not contain the expected content
+09112025 02:18:42 PM - StatusReporter - ERROR - ### VERIFICATION FAILED: List's names checked
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_desc and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.', "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.", 'Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.', "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.", "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.", 'This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.'] 
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.', "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.", 'Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.', "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.", "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.", 'This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.']
+09112025 02:18:42 PM - Util - ERROR - Text does not contain the expected content
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.', "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.", 'Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.', "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.", "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.", 'This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.', "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.", 'Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.', "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.", "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.", 'This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.', "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.", 'Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.', "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.", "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.", 'This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.', "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.", 'Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.', "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.", "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.", 'This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Carry all the things with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.', "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.", 'Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.', "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.", "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.", 'This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.']
+09112025 02:18:42 PM - StatusReporter - ERROR - ### VERIFICATION FAILED: List's descriptions checked
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_price and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $29.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $9.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $15.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $49.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $7.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $15.99
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['$29.99', '$9.99', '$15.99', '$49.99', '$7.99', '$15.99'] 
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> $29.99
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['$29.99', '$9.99', '$15.99', '$49.99', '$7.99', '$15.99']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> $9.99
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['$29.99', '$9.99', '$15.99', '$49.99', '$7.99', '$15.99']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> $15.99
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['$29.99', '$9.99', '$15.99', '$49.99', '$7.99', '$15.99']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> $49.99
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['$29.99', '$9.99', '$15.99', '$49.99', '$7.99', '$15.99']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> $7.99
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['$29.99', '$9.99', '$15.99', '$49.99', '$7.99', '$15.99']
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> $15.99
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['$29.99', '$9.99', '$15.99', '$49.99', '$7.99', '$15.99']
+09112025 02:18:42 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: List's prices checked
+09112025 02:18:42 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/List's prices checked.1762694322140.png
+09112025 02:18:42 PM - StatusReporter - ERROR - ### TEST FAILED: Test Inventory List
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_name and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Backpack
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Bike Light
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Bolt T-Shirt
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Fleece Jacket
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Onesie
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Test.allTheThings() T-Shirt (Red)
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)'] 
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_name and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Backpack
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Bike Light
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Bolt T-Shirt
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Fleece Jacket
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Onesie
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Test.allTheThings() T-Shirt (Red)
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)'] 
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+09112025 02:18:42 PM - Util - INFO - Text correctly contains the expected content
+09112025 02:18:42 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Titles sorted from A to Z
+09112025 02:18:42 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Titles sorted from A to Z.1762694322293.png
+09112025 02:18:42 PM - ShopPage - DEBUG - Element found with locator: product_sort_container and locatorType: class
+09112025 02:18:42 PM - ShopPage - DEBUG - Element with locator: product_sort_container and locatorType: class was selected with the value za
+09112025 02:18:42 PM - ShopPage - INFO - za was selected
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_name and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Test.allTheThings() T-Shirt (Red)
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Onesie
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Fleece Jacket
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Bolt T-Shirt
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Bike Light
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Backpack
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack'] 
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_name and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Test.allTheThings() T-Shirt (Red)
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Onesie
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Fleece Jacket
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Bolt T-Shirt
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Bike Light
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: Sauce Labs Backpack
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack'] 
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack']
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack']
+09112025 02:18:42 PM - Util - INFO - Text correctly contains the expected content
+09112025 02:18:42 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Titles sorted from Z to A
+09112025 02:18:42 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Titles sorted from Z to A.1762694322509.png
+09112025 02:18:42 PM - ShopPage - DEBUG - Element found with locator: product_sort_container and locatorType: class
+09112025 02:18:42 PM - ShopPage - DEBUG - Element with locator: product_sort_container and locatorType: class was selected with the value hilo
+09112025 02:18:42 PM - ShopPage - INFO - hilo was selected
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_price and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $49.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $29.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $15.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $15.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $9.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $7.99
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['$49.99', '$29.99', '$15.99', '$15.99', '$9.99', '$7.99'] 
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_price and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $49.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $29.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $15.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $15.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $9.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $7.99
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['$49.99', '$29.99', '$15.99', '$15.99', '$9.99', '$7.99'] 
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> ['$49.99', '$29.99', '$15.99', '$15.99', '$9.99', '$7.99']
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['$49.99', '$29.99', '$15.99', '$15.99', '$9.99', '$7.99']
+09112025 02:18:42 PM - Util - INFO - Text correctly contains the expected content
+09112025 02:18:42 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Prices sorted from High to Low
+09112025 02:18:42 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Prices sorted from High to Low.1762694322716.png
+09112025 02:18:42 PM - ShopPage - DEBUG - Element found with locator: product_sort_container and locatorType: class
+09112025 02:18:42 PM - ShopPage - DEBUG - Element with locator: product_sort_container and locatorType: class was selected with the value lohi
+09112025 02:18:42 PM - ShopPage - INFO - lohi was selected
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_price and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $7.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $9.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $15.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $15.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $29.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $49.99
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['$7.99', '$9.99', '$15.99', '$15.99', '$29.99', '$49.99'] 
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item_price and locatorType: class
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $7.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $9.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $15.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $15.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $29.99
+09112025 02:18:42 PM - ShopPage - INFO - The text in the element is: $49.99
+09112025 02:18:42 PM - ShopPage - INFO - Got 6 elements with texts: ['$7.99', '$9.99', '$15.99', '$15.99', '$29.99', '$49.99'] 
+09112025 02:18:42 PM - Util - INFO - Actual Text from Application Web UI -> ['$7.99', '$9.99', '$15.99', '$15.99', '$29.99', '$49.99']
+09112025 02:18:42 PM - Util - INFO - Expected Text from Application Web UI -> ['$7.99', '$9.99', '$15.99', '$15.99', '$29.99', '$49.99']
+09112025 02:18:42 PM - Util - INFO - Text correctly contains the expected content
+09112025 02:18:42 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Prices sorted from Low to High
+09112025 02:18:42 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Prices sorted from Low to High.1762694322914.png
+09112025 02:18:42 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Item Sorting
+09112025 02:18:42 PM - ShopPage - DEBUG - Element list found with locator: inventory_item and locatorType: class
+09112025 02:18:42 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:42 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:42 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:42 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:42 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:42 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:42 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:42 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:42 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:42 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:43 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:43 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Every Item has a Add to Cart Button
+09112025 02:18:43 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Every Item has a Add to Cart Button.1762694323001.png
+09112025 02:18:43 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Add Button Present
+09112025 02:18:43 PM - ShopPage - DEBUG - Element list found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - DEBUG - Waiting 10 seconds for element with locator: shopping_cart_badge and locatorType: class
+09112025 02:18:43 PM - ShopPage - INFO - Element appeared with locator: shopping_cart_badge and locatorType: class
+09112025 02:18:43 PM - ShopPage - DEBUG - Element found with locator: shopping_cart_badge and locatorType: class
+09112025 02:18:43 PM - ShopPage - DEBUG - After finding element, size is: 1
+09112025 02:18:43 PM - ShopPage - INFO - The text in the element is: 6
+09112025 02:18:43 PM - Util - INFO - Actual Text from Application Web UI -> 6
+09112025 02:18:43 PM - Util - INFO - Expected Text from Application Web UI -> 6
+09112025 02:18:43 PM - Util - INFO - Text correctly contains the expected content
+09112025 02:18:43 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: All items have been added to cart
+09112025 02:18:43 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/All items have been added to cart.1762694323437.png
+09112025 02:18:43 PM - ShopPage - DEBUG - Element list found with locator: inventory_item and locatorType: class
+09112025 02:18:43 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:43 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:43 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:43 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:43 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:43 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - DEBUG - Child element found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:43 PM - ShopPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:43 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Every Add Button is now a Removed Button
+09112025 02:18:43 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Every Add Button is now a Removed Button.1762694323525.png
+09112025 02:18:43 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Add Items to Cart
+09112025 02:18:43 PM - ShopPage - DEBUG - Element list found with locator: btn.btn_secondary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:43 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: All items have been removed
+09112025 02:18:44 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/All items have been removed.1762694323964.png
+09112025 02:18:44 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Remove Items from Cart
+09112025 02:18:51 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: user-name and locatorType: id
+09112025 02:18:51 PM - LoginPage - INFO - Can click on element with locator: user-name and locatorType: id
+09112025 02:18:51 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:51 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:51 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:18:51 PM - LoginPage - INFO - Sent standard_user to element with locator: user-name and locatorType: id
+09112025 02:18:51 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:18:51 PM - LoginPage - INFO - Sent secret_sauce to element with locator: password and locatorType: id
+09112025 02:18:51 PM - LoginPage - DEBUG - Element found with locator: login-button and locatorType: id
+09112025 02:18:51 PM - LoginPage - INFO - Clicked on element with locator: login-button and locatorType: id
+09112025 02:18:51 PM - ShopPage - DEBUG - Waiting 10 seconds for element with locator: product_sort_container and locatorType: class
+09112025 02:18:51 PM - ShopPage - INFO - Element appeared with locator: product_sort_container and locatorType: class
+09112025 02:18:51 PM - ShopPage - DEBUG - Element list found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class
+09112025 02:18:51 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:18:51 PM - ShopPage - DEBUG - Element found with locator: (//div[@class='inventory_item_description'])[1]//div[@class='inventory_item_name '] and locatorType: xpath
+09112025 02:18:51 PM - ShopPage - DEBUG - After finding element, size is: 19
+09112025 02:18:51 PM - ShopPage - INFO - The text in the element is: Sauce Labs Backpack
+09112025 02:18:51 PM - ShopPage - DEBUG - Element found with locator: shopping_cart_link and locatorType: class
+09112025 02:18:51 PM - ShopPage - INFO - Clicked on element with locator: shopping_cart_link and locatorType: class
+09112025 02:18:51 PM - CartPage - DEBUG - Waiting 10 seconds for element with locator: checkout and locatorType: ID
+09112025 02:18:51 PM - CartPage - INFO - Element appeared with locator: checkout and locatorType: ID
+09112025 02:18:51 PM - CartPage - DEBUG - Element found with locator: checkout and locatorType: id
+09112025 02:18:51 PM - CartPage - DEBUG - Element present with locator: checkout and locatorType: ID
+09112025 02:18:51 PM - CartPage - DEBUG - Element found with locator: //div[@class='inventory_item_name'][1] and locatorType: xpath
+09112025 02:18:52 PM - CartPage - DEBUG - After finding element, size is: 19
+09112025 02:18:52 PM - CartPage - INFO - The text in the element is: Sauce Labs Backpack
+09112025 02:18:52 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Access to Cart Page Correct
+09112025 02:18:52 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Access to Cart Page Correct.1762694332004.png
+09112025 02:18:52 PM - Util - INFO - Actual Text from Application Web UI -> Sauce Labs Backpack
+09112025 02:18:52 PM - Util - INFO - Expected Text from Application Web UI -> Sauce Labs Backpack
+09112025 02:18:52 PM - Util - INFO - Text correctly contains the expected content
+09112025 02:18:52 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Item in the cart matches selected in Shop
+09112025 02:18:52 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Item in the cart matches selected in Shop.1762694332055.png
+09112025 02:18:52 PM - CartPage - DEBUG - Element found with locator: cart_item and locatorType: class
+09112025 02:18:52 PM - CartPage - DEBUG - Child element found with locator: btn.btn_secondary.btn_small.cart_button and locatorType: class
+09112025 02:18:52 PM - CartPage - DEBUG - Element present with locator: None and locatorType: xpath
+09112025 02:18:52 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Item has Remove Button
+09112025 02:18:52 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Item has Remove Button.1762694332107.png
+09112025 02:18:52 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Add Item to Cart
+09112025 02:18:52 PM - CartPage - DEBUG - Element found with locator: btn.btn_secondary.btn_small.cart_button and locatorType: class
+09112025 02:18:52 PM - CartPage - INFO - Clicked on element with locator: btn.btn_secondary.btn_small.cart_button and locatorType: class
+09112025 02:18:52 PM - CartPage - DEBUG - Element list found with locator: cart_item and locatorType: class
+09112025 02:18:52 PM - Util - INFO - The list's length is the same as the expected
+09112025 02:18:52 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Item removed
+09112025 02:18:52 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Item removed.1762694332217.png
+09112025 02:18:52 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Remove Item from Cart
+09112025 02:18:52 PM - CartPage - DEBUG - Element found with locator: continue-shopping and locatorType: id
+09112025 02:18:52 PM - CartPage - INFO - Clicked on element with locator: continue-shopping and locatorType: id
+09112025 02:18:52 PM - CartPage - DEBUG - Waiting 10 seconds for element with locator: product_sort_container and locatorType: class
+09112025 02:18:52 PM - CartPage - INFO - Element appeared with locator: product_sort_container and locatorType: class
+09112025 02:18:52 PM - CartPage - DEBUG - Element found with locator: product_sort_container and locatorType: class
+09112025 02:18:52 PM - CartPage - DEBUG - Element present with locator: product_sort_container and locatorType: class
+09112025 02:18:52 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Back to Shop with Continue Shopping
+09112025 02:18:52 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Back to Shop with Continue Shopping.1762694332330.png
+09112025 02:18:52 PM - ShopPage - DEBUG - Element found with locator: shopping_cart_link and locatorType: class
+09112025 02:18:52 PM - ShopPage - INFO - Clicked on element with locator: shopping_cart_link and locatorType: class
+09112025 02:18:52 PM - CartPage - DEBUG - Waiting 10 seconds for element with locator: checkout and locatorType: id
+09112025 02:18:52 PM - CartPage - INFO - Element appeared with locator: checkout and locatorType: id
+09112025 02:18:52 PM - CartPage - DEBUG - Element found with locator: react-burger-menu-btn and locatorType: id
+09112025 02:18:52 PM - CartPage - INFO - Clicked on element with locator: react-burger-menu-btn and locatorType: id
+09112025 02:18:52 PM - CartPage - DEBUG - Waiting 10 seconds for element with locator: inventory_sidebar_link and locatorType: id
+09112025 02:18:52 PM - CartPage - INFO - Element appeared with locator: inventory_sidebar_link and locatorType: id
+09112025 02:18:52 PM - CartPage - DEBUG - Element found with locator: inventory_sidebar_link and locatorType: id
+09112025 02:18:52 PM - CartPage - INFO - Clicked on element with locator: inventory_sidebar_link and locatorType: id
+09112025 02:18:52 PM - CartPage - DEBUG - Waiting 10 seconds for element with locator: product_sort_container and locatorType: class
+09112025 02:18:52 PM - CartPage - INFO - Element appeared with locator: product_sort_container and locatorType: class
+09112025 02:18:52 PM - CartPage - DEBUG - Element found with locator: product_sort_container and locatorType: class
+09112025 02:18:52 PM - CartPage - DEBUG - Element present with locator: product_sort_container and locatorType: class
+09112025 02:18:52 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Back to Shop with All Items
+09112025 02:18:52 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Back to Shop with All Items.1762694332619.png
+09112025 02:18:52 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Back to Shop
+09112025 02:19:00 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: user-name and locatorType: id
+09112025 02:19:00 PM - LoginPage - INFO - Can click on element with locator: user-name and locatorType: id
+09112025 02:19:00 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:19:00 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:19:00 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:19:00 PM - LoginPage - INFO - Sent standard_user to element with locator: user-name and locatorType: id
+09112025 02:19:00 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:19:00 PM - LoginPage - INFO - Sent secret_sauce to element with locator: password and locatorType: id
+09112025 02:19:00 PM - LoginPage - DEBUG - Element found with locator: login-button and locatorType: id
+09112025 02:19:00 PM - LoginPage - INFO - Clicked on element with locator: login-button and locatorType: id
+09112025 02:19:00 PM - ShopPage - DEBUG - Waiting 10 seconds for element with locator: product_sort_container and locatorType: class
+09112025 02:19:00 PM - ShopPage - INFO - Element appeared with locator: product_sort_container and locatorType: class
+09112025 02:19:00 PM - ShopPage - DEBUG - Element list found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class
+09112025 02:19:00 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:19:00 PM - ShopPage - DEBUG - Element found with locator: shopping_cart_link and locatorType: class
+09112025 02:19:00 PM - ShopPage - INFO - Clicked on element with locator: shopping_cart_link and locatorType: class
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: checkout and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Element appeared with locator: checkout and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: checkout and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Clicked on element with locator: checkout and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Element appeared with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element present with locator: first-name and locatorType: id
+09112025 02:19:00 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Checkout ready
+09112025 02:19:00 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Checkout ready.1762694340681.png
+09112025 02:19:00 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Checkout Successful
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Element appeared with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: last-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: postal-code and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Sent  to element with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: last-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Sent  to element with locator: last-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: postal-code and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Sent  to element with locator: postal-code and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: continue and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Clicked on element with locator: continue and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:19:00 PM - CheckoutPage - DEBUG - After finding element, size is: 29
+09112025 02:19:00 PM - CheckoutPage - INFO - The text in the element is: Error: First Name is required
+09112025 02:19:00 PM - Util - INFO - Actual Text from Application Web UI -> Error: First Name is required
+09112025 02:19:00 PM - Util - INFO - Expected Text from Application Web UI -> Error: First Name is required
+09112025 02:19:00 PM - Util - INFO - Text correctly contains the expected content
+09112025 02:19:00 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: First Name Error Displayed Correctly
+09112025 02:19:00 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/First Name Error Displayed Correctly.1762694340854.png
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Element appeared with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: last-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: postal-code and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Sent Test to element with locator: first-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: last-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Sent  to element with locator: last-name and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: postal-code and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - INFO - Sent  to element with locator: postal-code and locatorType: id
+09112025 02:19:00 PM - CheckoutPage - DEBUG - Element found with locator: continue and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Clicked on element with locator: continue and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:19:01 PM - CheckoutPage - DEBUG - After finding element, size is: 28
+09112025 02:19:01 PM - CheckoutPage - INFO - The text in the element is: Error: Last Name is required
+09112025 02:19:01 PM - Util - INFO - Actual Text from Application Web UI -> Error: Last Name is required
+09112025 02:19:01 PM - Util - INFO - Expected Text from Application Web UI -> Error: Last Name is required
+09112025 02:19:01 PM - Util - INFO - Text correctly contains the expected content
+09112025 02:19:01 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Last Name Error Displayed Correctly
+09112025 02:19:01 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Last Name Error Displayed Correctly.1762694341053.png
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: first-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Element appeared with locator: first-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: first-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: last-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: postal-code and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: first-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Sent Test to element with locator: first-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: last-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Sent Auto to element with locator: last-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: postal-code and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Sent  to element with locator: postal-code and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: continue and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Clicked on element with locator: continue and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: //h3[@data-test='error'] and locatorType: xpath
+09112025 02:19:01 PM - CheckoutPage - DEBUG - After finding element, size is: 30
+09112025 02:19:01 PM - CheckoutPage - INFO - The text in the element is: Error: Postal Code is required
+09112025 02:19:01 PM - Util - INFO - Actual Text from Application Web UI -> Error: Postal Code is required
+09112025 02:19:01 PM - Util - INFO - Expected Text from Application Web UI -> Error: Postal Code is required
+09112025 02:19:01 PM - Util - INFO - Text correctly contains the expected content
+09112025 02:19:01 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Postal Code Error Displayed Correctly
+09112025 02:19:01 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Postal Code Error Displayed Correctly.1762694341238.png
+09112025 02:19:01 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Wrong information
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: cancel and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Clicked on element with locator: cancel and locatorType: id
+09112025 02:19:01 PM - CartPage - DEBUG - Waiting 10 seconds for element with locator: checkout and locatorType: ID
+09112025 02:19:01 PM - CartPage - INFO - Element appeared with locator: checkout and locatorType: ID
+09112025 02:19:01 PM - CartPage - DEBUG - Element found with locator: checkout and locatorType: id
+09112025 02:19:01 PM - CartPage - DEBUG - Element present with locator: checkout and locatorType: ID
+09112025 02:19:01 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Cancel returns to Cart
+09112025 02:19:01 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Cancel returns to Cart.1762694341357.png
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: checkout and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Element appeared with locator: checkout and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: checkout and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Clicked on element with locator: checkout and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: shopping_cart_link and locatorType: class
+09112025 02:19:01 PM - CheckoutPage - INFO - Clicked on element with locator: shopping_cart_link and locatorType: class
+09112025 02:19:01 PM - CartPage - DEBUG - Waiting 10 seconds for element with locator: checkout and locatorType: ID
+09112025 02:19:01 PM - CartPage - INFO - Element appeared with locator: checkout and locatorType: ID
+09112025 02:19:01 PM - CartPage - DEBUG - Element found with locator: checkout and locatorType: id
+09112025 02:19:01 PM - CartPage - DEBUG - Element present with locator: checkout and locatorType: ID
+09112025 02:19:01 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Shopping Cart returns to Cart
+09112025 02:19:01 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Shopping Cart returns to Cart.1762694341537.png
+09112025 02:19:01 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Back to Cart
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: checkout and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Element appeared with locator: checkout and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: checkout and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Clicked on element with locator: checkout and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: first-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Element appeared with locator: first-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: first-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Sent Test to element with locator: first-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: last-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Sent Auto to element with locator: last-name and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: postal-code and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Sent 49668 to element with locator: postal-code and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: continue and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - INFO - Clicked on element with locator: continue and locatorType: id
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: summary_info and locatorType: class
+09112025 02:19:01 PM - CheckoutPage - INFO - Element appeared with locator: summary_info and locatorType: class
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element found with locator: summary_info and locatorType: class
+09112025 02:19:01 PM - CheckoutPage - DEBUG - Element present with locator: summary_info and locatorType: class
+09112025 02:19:01 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Checkout Info Added
+09112025 02:19:01 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Checkout Info Added.1762694341790.png
+09112025 02:19:01 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Checkout Overivew
+09112025 02:19:09 PM - LoginPage - DEBUG - Waiting 10 seconds for element with locator: user-name and locatorType: id
+09112025 02:19:09 PM - LoginPage - INFO - Can click on element with locator: user-name and locatorType: id
+09112025 02:19:09 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:19:09 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:19:09 PM - LoginPage - DEBUG - Element found with locator: user-name and locatorType: id
+09112025 02:19:09 PM - LoginPage - INFO - Sent standard_user to element with locator: user-name and locatorType: id
+09112025 02:19:09 PM - LoginPage - DEBUG - Element found with locator: password and locatorType: id
+09112025 02:19:09 PM - LoginPage - INFO - Sent secret_sauce to element with locator: password and locatorType: id
+09112025 02:19:09 PM - LoginPage - DEBUG - Element found with locator: login-button and locatorType: id
+09112025 02:19:09 PM - LoginPage - INFO - Clicked on element with locator: login-button and locatorType: id
+09112025 02:19:09 PM - ShopPage - DEBUG - Waiting 10 seconds for element with locator: product_sort_container and locatorType: class
+09112025 02:19:09 PM - ShopPage - INFO - Element appeared with locator: product_sort_container and locatorType: class
+09112025 02:19:09 PM - ShopPage - DEBUG - Element list found with locator: btn.btn_primary.btn_small.btn_inventory and locatorType: class
+09112025 02:19:09 PM - ShopPage - INFO - Clicked on element with locator: None and locatorType: xpath
+09112025 02:19:09 PM - ShopPage - DEBUG - Element found with locator: shopping_cart_link and locatorType: class
+09112025 02:19:09 PM - ShopPage - INFO - Clicked on element with locator: shopping_cart_link and locatorType: class
+09112025 02:19:09 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: checkout and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - INFO - Element appeared with locator: checkout and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - DEBUG - Element found with locator: checkout and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - INFO - Clicked on element with locator: checkout and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - DEBUG - Waiting 10 seconds for element with locator: first-name and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - INFO - Element appeared with locator: first-name and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - DEBUG - Element found with locator: first-name and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - INFO - Sent Test to element with locator: first-name and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - DEBUG - Element found with locator: last-name and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - INFO - Sent Auto to element with locator: last-name and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - DEBUG - Element found with locator: postal-code and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - INFO - Sent 49668 to element with locator: postal-code and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - DEBUG - Element found with locator: continue and locatorType: id
+09112025 02:19:09 PM - CheckoutPage - INFO - Clicked on element with locator: continue and locatorType: id
+09112025 02:19:09 PM - OverviewPage - DEBUG - Waiting 10 seconds for element with locator: inventory_item_name and locatorType: class
+09112025 02:19:09 PM - OverviewPage - INFO - Element appeared with locator: inventory_item_name and locatorType: class
+09112025 02:19:09 PM - OverviewPage - DEBUG - Element found with locator: inventory_item_name and locatorType: class
+09112025 02:19:09 PM - OverviewPage - DEBUG - Element present with locator: inventory_item_name and locatorType: class
+09112025 02:19:09 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Got to overview
+09112025 02:19:10 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Got to overview.1762694349968.png
+09112025 02:19:10 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Getting to overview
+09112025 02:19:10 PM - OverviewPage - DEBUG - Element found with locator: finish and locatorType: id
+09112025 02:19:10 PM - OverviewPage - INFO - Clicked on element with locator: finish and locatorType: id
+09112025 02:19:10 PM - OverviewPage - DEBUG - Waiting 10 seconds for element with locator: complete-header and locatorType: class
+09112025 02:19:10 PM - OverviewPage - INFO - Element appeared with locator: complete-header and locatorType: class
+09112025 02:19:10 PM - OverviewPage - DEBUG - Element found with locator: complete-header and locatorType: class
+09112025 02:19:10 PM - OverviewPage - DEBUG - After finding element, size is: 25
+09112025 02:19:10 PM - OverviewPage - INFO - The text in the element is: Thank you for your order!
+09112025 02:19:10 PM - Util - INFO - Actual Text from Application Web UI -> Thank you for your order!
+09112025 02:19:10 PM - Util - INFO - Expected Text from Application Web UI -> Thank you for your order!
+09112025 02:19:10 PM - Util - INFO - Text correctly contains the expected content
+09112025 02:19:10 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Valid Thanks Message
+09112025 02:19:10 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Valid Thanks Message.1762694350088.png
+09112025 02:19:10 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Order Completed
+09112025 02:19:10 PM - OverviewPage - DEBUG - Element found with locator: back-to-products and locatorType: id
+09112025 02:19:10 PM - OverviewPage - INFO - Clicked on element with locator: back-to-products and locatorType: id
+09112025 02:19:10 PM - ShopPage - DEBUG - Waiting 10 seconds for element with locator: product_sort_container and locatorType: class
+09112025 02:19:10 PM - ShopPage - INFO - Element appeared with locator: product_sort_container and locatorType: class
+09112025 02:19:10 PM - ShopPage - DEBUG - Element list found with locator: inventory_item and locatorType: class
+09112025 02:19:10 PM - Util - INFO - The list's length is the same as the expected
+09112025 02:19:10 PM - StatusReporter - INFO - ### VERIFICATION SUCCESSFUL: Gone Back to Shop
+09112025 02:19:10 PM - StatusReporter - INFO - Screenshot saved to directory: C:\Users\anfer\Documents\Selenium\saucedemo_selenium_automation\base\../screenshots/Gone Back to Shop.1762694350207.png
+09112025 02:19:10 PM - StatusReporter - INFO - ### TEST SUCCESSFUL: Back to Home
