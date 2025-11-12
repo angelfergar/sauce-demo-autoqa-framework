@@ -4,7 +4,7 @@ This Project is a QA Automation Framework built to validate the basic functional
 
 The framework is implemented using **Python, Selenium, pytest, unittest and the Page Object Model (POM)**, with modular design for maintainability and scalability.
  
-It uses **Python, Selenium, pytest, and unittest** to perform smoke tests on the basic functionality of the platform, covering:
+It uses **Python, Selenium, pytest, and unittest** to perform smoke tests on the basic functionality of the platform.
 
 ---
 
